@@ -20,8 +20,10 @@ class User {
         this._dni = id
     }
     set telephone (telephone) {
-        telephone.number.startsWith(+549) ? telephone.isMobile = true : telephone.isMobile = false 
-        this._telephones.push(telephone)
+        this._telephones.push({ 
+            number: telephone, 
+            isMobile: telephone.number.startsWith(+549) 
+        })
     }
 
     set isAdmin (bool) {

@@ -83,26 +83,12 @@ const studentsList = [
     }
   ]
 
-const alumnos = []
 
-// alumnos.push(
-//     studentsList.map(
-//         (user) => new User (user._firstName, user._lastName, user._dni, user._isAdmin, user._telephones)
-//     )
-// )
 
-unoSolo = studentsList[0]
-// console.log(unoSolo)
 
-const userSolo = new User (unoSolo.firstName, unoSolo.lastName, unoSolo.dni, false ,unoSolo.telephones)
+const users = studentsList.map(student => (new User (student.firstName, student.lastName, student.dni, undefined, student.telephones)))
 
-// console.log(userSolo)
 
-const users = []
+console.log(users.map(each => each.telephonesNumbers).join(' / '))
 
-users.push(studentsList.map(student => (new User (student.firstName, student.lastName, student.dni, undefined, unoSolo.telephones))))
-
-// console.log(users.map(each => each.showAll()))
-
-console.log(users[0])
 

@@ -54,8 +54,7 @@ class User {
         return this._telephones.map(phone => phone.number)
     }
     showAll() {
-        return 
-        `${this._firstName} ${this._lastName} ${this._dni} ${this.telephonesNumbers}`
+        return JSON.stringify(`Soy ${this._firstName} ${this._lastName}, mi documento es ${this._dni} y mis telefonos son ${this.telephonesNumbers.join(' / ')}`, null, 2)
     }
 
 }
@@ -86,9 +85,10 @@ const studentsList = [
 
 
 
-const users = studentsList.map(student => (new User (student.firstName, student.lastName, student.dni, undefined, student.telephones)))
+const users = studentsList.map(student => (new User (student.firstName, student.lastName, student.dni, student.isAdmin, student.telephones)))
 
 
-console.log(users.map(each => each.telephonesNumbers).join(' / '))
 
+console.log('User', users.map(each => each.showAll()))
+//console.log(users.map(each => each.telephonesNumbers).join(' / '))
 

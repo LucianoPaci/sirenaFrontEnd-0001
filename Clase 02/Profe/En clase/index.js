@@ -247,3 +247,42 @@
 // const user = new User(user0.firstName, user0.lastName, user0.age)
 
 // user.showAll()
+
+// const usersArray = [
+//   {
+//     firstName: 'Luciano',
+//     age: 22
+//   },
+//   {
+//     firstName: 'Gus',
+//     lastName: 'Giannini'
+//   }
+// ]
+
+// usersArray.push({
+//   firstName: 'Luciano',
+//   lastName: 'Pachi'
+// })
+
+// const usersArray = [
+//   {
+//     firstName: 'Luciano',
+//     age: 22
+//   },
+//   {
+//     firstName: 'Gus',
+//     lastName: 'Giannini'
+//   },
+//   {
+//     firstName: 'Luciano',
+//     lastName: 'Pachi'
+//   }
+// ]
+
+// const value = ' '
+
+// if (value) {
+//   console.log('Verdadero')
+// } else {
+//   console.log('Falso')
+// }

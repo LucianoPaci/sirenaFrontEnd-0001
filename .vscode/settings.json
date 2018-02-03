@@ -1,0 +1,18 @@
+{
+    "editor.tabSize": 2,
+    "prettier.alignObjectProperties": true,
+    "prettier.arrayExpand": false,
+    "prettier.arrowParens": true,
+    "prettier.bracesSpacing": true,
+    "prettier.bracketSpacing": true,
+    "prettier.breakBeforeElse": false,
+    "prettier.flattenTernaries": true,
+    "prettier.jsxBracketSameLine": false,
+    "prettier.noSpaceEmptyFn": true,
+    "prettier.spaceBeforeFunctionParen": true,
+    "prettier.tabWidth": 2,
+    "prettier.trailingComma": "es6",
+    "prettier.useTabs": false,
+    "editor.formatOnSave": true,
+    "prettier.semi": false
+}

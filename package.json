@@ -1,0 +1,27 @@
+{
+  "name": "sirenafrontend-0001",
+  "version": "1.0.0",
+  "description": "Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos, por cada una les voy a agregar una carpeta con el número de la clase y adentro van a encontrar:",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "jest": "^22.1.4",
+    "react-scripts": "^1.1.0",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "scripts": {
+    "test": "jest \"./Clase 03/Alumno/DesafioExtendido\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirenitosHouse/sirenaFrontEnd-0001.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirenitosHouse/sirenaFrontEnd-0001/issues"
+  },
+  "homepage": "https://github.com/SirenitosHouse/sirenaFrontEnd-0001#readme"
+}

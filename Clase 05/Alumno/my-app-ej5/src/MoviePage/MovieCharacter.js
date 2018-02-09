@@ -32,13 +32,15 @@ export default class MovieCharacter extends Component {
       })
   }
 
-
+  //Como hago para invocar el llamado a la request con la prop que esta recibiendo desde MovieDetail ?
+  // La prop no sabria como traerla al nuevo Component
   render() {
 
     console.log(character, 'Character: ')
     const { character } = this.state
     return (
-      <p style={styles.root}>{character}  </p>
+      <p style={styles.root}>{console.log(character)}</p>
+      // {character}  
     )
   }
 
